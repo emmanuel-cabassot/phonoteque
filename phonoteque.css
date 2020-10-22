@@ -1,0 +1,227 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+.toolbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    font-size: 1.4em;
+}
+
+.logo{
+    margin-left: 7%;
+   
+}
+
+.logo a{
+    text-decoration: none;
+    color: rgb(26, 181, 219);
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.logo :hover{
+    color: white;
+    background-color: rgb(26, 181, 219);
+    border-radius: 20px;
+    transition: 0.9s;
+}
+
+.liens{
+    margin-right: 7%;
+    display: flex;
+}
+
+.liens a{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(26, 181, 219);
+    margin-left: 3px;
+}
+
+.header-salsa a{
+    color: salmon;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.header-salsa :hover{
+    color:white;
+    background-color: salmon;
+    border-radius: 20px;
+    transition: 0.9s;
+}
+
+.header-soul a {
+    color: rgb(51, 50, 50);
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.header-soul :hover{
+    color: white;
+    background-color: rgb(51, 50, 50);
+    border-radius: 20px;
+    transition: 0.9s;
+}
+
+.header-bg{
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-position: center;
+}
+
+.header-bg{
+    font-size: 2.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(238, 231, 231);
+    text-shadow: 0 0 20px black  ;
+}
+
+#soul, #salsa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+   
+}
+
+.globale-salsa, .globale-soul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.album-soul, .album-salsa{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 100%;  
+    margin: 80px;
+    background-color: white; 
+ 
+}
+
+.soul-artiste, .salsa-artiste, .soul-jacket, .salsa-jacket{
+    width: 500px;
+}
+
+.soul-jacket img, .salsa-jacket img{
+    width: 500px;
+}
+
+.soul-artiste img, .salsa-artiste img{
+    margin: none;
+    border: none;
+    height: 60px;
+}
+
+
+
+
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.footer-logo a{
+    text-decoration: none;
+    color: rgb(26, 181, 219);
+    font-size: 2.3em;
+}
+
+.footer-logo p{
+    font-size: 1.5em;
+    color: rgb(100, 98, 98);
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.footer-style{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    
+    margin-bottom: 20px;
+
+}
+
+.footer-style a{
+    text-decoration: none;
+    font-size: 1.5em;
+    
+}
+
+.footer-salsa{
+    width: 150px;
+    text-align: center;
+}
+
+.footer-salsa a{
+    color: salmon;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+ .footer-salsa :hover{
+    color:white;
+    background-color: salmon;
+    border-radius: 20px;
+    transition: 0.9s;
+ }
+.footer-soul{
+    width: 150px;
+    text-align: center;
+}
+
+.footer-soul a{
+    color: rgb(51, 50, 50);
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.footer-soul :hover{
+    color: white;
+    background-color: rgb(51, 50, 50);
+    border-radius: 20px;
+    transition: 0.9s;
+}
+
+.footer-social{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    background-color: rgb(51, 50, 50);
+}
+.footer-social img{
+    height: 50px;
+    margin: 5px 3px;
+}
