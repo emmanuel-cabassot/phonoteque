@@ -15,10 +15,11 @@ header{
     align-items: center;
     height: 60px;
     font-size: 1.4em;
+    background-color: rgb(240, 240, 240);
 }
 
 .logo{
-    margin-left: 7%;
+    margin-left: 12%;
    
 }
 
@@ -37,7 +38,7 @@ header{
 }
 
 .liens{
-    margin-right: 7%;
+    margin-right: 12%;
     display: flex;
 }
 
@@ -45,7 +46,7 @@ header{
     text-decoration: none;
     padding: 10px;
     color: rgb(26, 181, 219);
-    margin-left: 3px;
+    margin-left: 25px;
 }
 
 .header-salsa a{
@@ -83,13 +84,93 @@ header{
     justify-content: center;
     height: 300px;
     background-position: center;
-}
-
-.header-bg{
     font-size: 2.5em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(238, 231, 231);
     text-shadow: 0 0 20px black  ;
+}
+
+.header-bg-soul{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-position: center;
+    font-size: 2.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(238, 231, 231);
+}
+
+.soul-acc h1, .salsa-acc h1{
+    text-align: center;   
+    margin: 20px 0 40px 0; 
+    font-size: 2.5em;
+}
+
+.soul-acc a, .salsa-acc a{
+    text-decoration: none;
+}
+
+
+.soul-acc h1 a{
+    color: white;
+    padding: 1px 8px;
+}
+
+.soul-acc h1 :hover{
+    color: black;
+    background-color: white;
+    padding: 1px 8px;
+    transition: 0.9s;
+}
+
+.soul-acc{
+    background-image: url(img/bg-soul.jpg);
+    padding-top: 10px;
+}
+
+.artistes-soul-acc, .artistes-acc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.carte-soul-acc, .carte-acc{  
+    text-align: center;
+    width: 255px;
+    margin-bottom: 70px;
+}
+
+.carte-soul-acc audio, .carte-acc audio{
+    width: 230px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.carte-soul-acc{
+    background-color: white;
+    box-shadow: 3px 3px 4px rgb(54, 54, 54);
+}
+
+
+
+.carte-soul-acc img, .carte-acc img{
+    width: 250px;
+    height: 300px;
+    padding: 13px 13px 0 13px;
+}
+
+.carte-soul-acc h2, .carte-acc h2{
+    margin-bottom: 10px;
+}
+
+#soul-presentation p{
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+    padding: 30px 8%;
+
 }
 
 #soul, #salsa{
@@ -106,50 +187,71 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    
+    width: 100%;  
+}
+
+#soul{
+    background-image: url(img/bg-soul.jpg);
+}
+
+#soul h1{
+    color: white;
+    text-align: center;
 }
 
 .album-soul, .album-salsa{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: row;
-    width: 100%;  
+    width: 1000px;  
     margin: 80px;
     background-color: white; 
- 
+    box-shadow: 0 0 10px rgb(139, 131, 131);
+ }
+
+.soul-artiste, .salsa-artiste{
+    
+    text-align: center;
+    padding: 15px;
+    
 }
 
-.soul-artiste, .salsa-artiste, .soul-jacket, .salsa-jacket{
-    width: 500px;
+.soul-artiste p, .salsa-artiste p{
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: rgb(80, 77, 77);
 }
 
-.soul-jacket img, .salsa-jacket img{
-    width: 500px;
+.soul-artiste h2, .salsa-artiste h2{
+    font-size: 1.9em;
+    margin-bottom: 15px;
+    line-height: 0.5em;
 }
 
 .soul-artiste img, .salsa-artiste img{
-    margin: none;
-    border: none;
     height: 60px;
 }
 
 
-
-
-
+.soul-jacket img, .salsa-jacket img{
+    width: 500px;
+    padding: 10px;
+    
+}
 
 footer{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: rgb(240, 240, 240);
 }
 
 .footer-logo{
     text-align: center;
     margin-top: 20px;
+    line-height: 1em;
     
 }
 
@@ -160,8 +262,8 @@ footer{
 }
 
 .footer-logo p{
-    font-size: 1.5em;
-    color: rgb(100, 98, 98);
+    font-size: 1.2em;
+    color: rgb(49, 47, 47);
     margin-top: 0;
     margin-bottom: 20px;
 }
@@ -170,9 +272,7 @@ footer{
     display: flex;
     justify-content: space-between;
     width: 60%;
-    
     margin-bottom: 20px;
-
 }
 
 .footer-style a{
@@ -219,9 +319,10 @@ footer{
     display: flex;
     justify-content: space-between;
     width: 250px;
-    background-color: rgb(51, 50, 50);
+
+    margin-top: -10px;
 }
 .footer-social img{
-    height: 50px;
+    height: 90px;
     margin: 5px 3px;
 }
