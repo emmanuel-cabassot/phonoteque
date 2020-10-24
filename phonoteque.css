@@ -93,7 +93,7 @@ header{
     background-position: center;
     font-size: 2em;
     font-family: 'Roboto Condensed', sans-serif;
-    color: rgb(238, 231, 231);
+    color: white;
     text-shadow: 0 0 20px black  ;
     margin-bottom: 0%;
     padding-bottom: 0%;
@@ -108,7 +108,11 @@ header{
     background-position: center;
     font-size: 2em;
     font-family: 'Roboto Condensed', sans-serif;
-    color: rgb(238, 231, 231);
+    color: white;
+}
+
+.header-bg-soul h3{
+    color: white;
 }
 
 .header-bg-salsa {
